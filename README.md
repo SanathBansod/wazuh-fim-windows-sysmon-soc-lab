@@ -313,22 +313,7 @@ evidence/
 
 For every screenshot, write one or two lines explaining what it proves. Do not add placeholder images and do not label untested steps as successful.
 
-## 14. Practice Checklist
-
-- [ ] Deploy Wazuh in an isolated lab using the official guide.
-- [ ] Connect the Linux Wazuh agent.
-- [ ] Connect the Windows Wazuh agent.
-- [ ] Configure and verify a monitored FIM test directory.
-- [ ] Generate and capture benign file create/modify/delete events.
-- [ ] Install Sysmon from Microsoft's official source.
-- [ ] Review Sysmon's configuration and event channel.
-- [ ] Generate a benign process creation event.
-- [ ] Configure the Wazuh agent to collect Sysmon events.
-- [ ] Confirm a Sysmon event appears in Wazuh.
-- [ ] Correlate evidence and write a SOC investigation note.
-- [ ] Add real, sanitized screenshots and note any limitations.
-
-## 15. Official References
+## 14. Official References
 
 - [Wazuh Quickstart](https://documentation.wazuh.com/current/quickstart.html)
 - [Wazuh File Integrity Monitoring](https://documentation.wazuh.com/current/user-manual/capabilities/file-integrity/index.html)
